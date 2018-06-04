@@ -1,0 +1,621 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+
+<!-- Cover page Carousels -->
+<div class="container-fluid">
+  <div class="row">
+    <div id="sg-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel0" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel1" data-slide-to="1" class=""></li>
+        <li data-target="#carousel2" data-slide-to="2" class=""></li>
+        <li data-target="#carousel3" data-slide-to="3" class=""></li>
+      </ol>
+      <!-- Carousel items -->
+      <div class="carousel-inner carousel-zoom">
+        <div class="item active" id="carousel0"><img class="img-responsive" src="{% static "img/3.jpg" %}" alt="">
+          <div class="carousel-caption">
+          <h1  data-animation="animated bounceInDown " class="cap-txt ">Invest in Revolutionary Green units</h1>
+          <h2 data-animation="animated zoomInLeft">Earn hassle free monthly income and participate in capital appreciation</h2>
+          <a href="properties.html" data-animation="animated bounceInUp" class="btn btn-lg green">View More</a>
+          </div>
+        </div>
+         <div class="item" id="carousel1"><img class="img-responsive" src="{% static "img/1.jpg" %}" alt="">
+          <div class="carousel-caption">
+          <h1 data-animation="animated zoomInLeft" class="cap-txt">Beyond organic. </h1>
+          <h2 data-animation="animated bounceInDown">Zero waste, economically sound, ecologically sustainable, <br />natural integrated farming initiative for organic farm, diary, honey and poultry produce.</h2>
+          <h3 data-animation="animated bounceInDown">Completely chemical free, non – GMO, organic agriculture produce, hormone-free, antibiotic free, poultry and livestock produce.</h3>
+          <h3 data-animation="animated bounceInDown">A2 milk from farm reared indigenous cows.</h3>
+          <h3 data-animation="animated bounceInDown"> Pesticide residue free from in-farm beehives.</h3>
+          <a href="food_service.html" data-animation="animated bounceInUp" class="btn btn-lg green">View More</a>
+          </div>
+        </div>
+        <div class="item" id="carousel2"><img class="img-responsive" src="{% static "img/2.jpg" %}" alt="">
+          <div class="carousel-caption">
+          <h1 data-animation="animated zoomInLeft" class="cap-txt">Data Sciences Meets Natural Framing</h1>
+          <h2 data-animation="animated bounceInDown">Unique farm design ,development of systems, usage of advance technology <br /> Techniques inspired  from permaculture /zero budget natural farming</h2>
+          <a href="technology.html" data-animation="animated bounceInUp" class="btn btn-lg green">View More</a>
+          </div>
+        </div>
+        <div class="item" id="carousel3"><img class="img-responsive" src="{% static "img/4.jpg" %}" alt="">
+          <div class="carousel-caption">
+          <h1 data-animation="animated zoomInLeft" class="cap-txt">Data Sciences Meets Natural Framing</h1>
+          <h2 data-animation="animated bounceInDown">Unique farm design ,development of systems, usage of advance technology <br /> Techniques inspired  from permaculture /zero budget natural farming</h2>
+          <a href="technology.html" data-animation="animated bounceInUp" class="btn btn-lg green">View More</a>
+          </div>
+        </div>
+      <!-- Carousel nav -->
+      <a class="carousel-control left" href="#sg-carousel" data-slide="prev">‹</a>
+      <a class="carousel-control right" href="#sg-carousel" data-slide="next">›</a>
+    </div> 
+  </div>
+</div>
+</div>
+<!-- End-Cover page Carousels -->
+
+<!-- Why-agri page Carousels -->
+<section class="why-agri">
+  <div class="container-fluid">
+    <section id="welcome">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="wel_header">
+                            <h2>Why Agri Asset</h2>
+                            <p>Our Green Fire Organization is one of the non profit organization near you. Get our services like</p>
+                        </div>
+                    </div>
+                </div>
+                <!--End of row-->
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="item">
+                            <div class="single_item">
+                                <div class="item_list">
+                                    <div class="welcome_icon">
+                                        <i class="fa fa-line-chart"></i>
+                                    </div>
+                                    <h4>High Returns</h4>
+                                    <div class="content">
+                                        <p>Please Like press like button and post your comment below</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End of col-md-3-->
+                    <div class="col-md-3">
+                        <div class="item">
+                            <div class="single_item">
+                                <div class="item_list">
+                                    <div class="welcome_icon">
+                                        <i class="fa fa-flask"></i>
+                                    </div>
+                                    <h4>non GMO seeds</h4>
+                                    <div class="content">
+                                        <p>Please Like press like button and post your comment below</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End of col-md-3-->
+                    <div class="col-md-3">
+                        <div class="item">
+                            <div class="single_item">
+                                <div class="item_list">
+                                    <div class="welcome_icon">
+                                        <i class="fa fa-leaf"></i>
+                                    </div>
+                                    <h4>Bio-food forest</h4>
+                                    <div class="content">
+                                        <p>Please Like press like button and post your comment below</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End of col-md-3-->
+                    <div class="col-md-3">
+                        <div class="item">
+                            <div class="single_item">
+                                <div class="item_list">
+                                    <div class="welcome_icon">
+                                        <i class="fa fa-laptop"></i>
+                                    </div>
+                                    <h4>Technology</h4>
+                                    <div class="content">
+                                        <p>Please Like press like button and post your comment below</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End of col-md-3-->
+                </div>
+                <!--End of row-->
+                <!--End of row-->
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="item">
+                            <div class="single_item">
+                                <div class="item_list">
+                                    <div class="welcome_icon">
+                                        <i class="fa fa-handshake-o"></i>
+                                    </div>
+                                    <h4>Better traceability</h4>
+                                    <div class="content">
+                                        <p>Please Like press like button and post your comment below</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End of col-md-3-->
+                    <div class="col-md-3">
+                        <div class="item">
+                            <div class="single_item">
+                                <div class="item_list">
+                                    <div class="welcome_icon">
+                                        <i class="fa fa-search"></i>
+                                    </div>
+                                    <h4>selection criteria</h4>
+                                    <div class="content">
+                                        <p>Please Like press like button and post your comment below</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End of col-md-3-->
+                    <div class="col-md-3">
+                        <div class="item">
+                            <div class="single_item">
+                                <div class="item_list">
+                                    <div class="welcome_icon">
+                                        <i class="fa fa-calculator"></i>
+                                    </div>
+                                    <h4>Financial income</h4>
+                                    <div class="content">
+                                        <p>Please Like press like button and post your comment below</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End of col-md-3-->
+                    <div class="col-md-3">
+                        <div class="item">
+                            <div class="single_item">
+                                <div class="item_list">
+                                    <div class="welcome_icon">
+                                        <i class="fa fa-home"></i>
+                                    </div>
+                                    <h4>Weekend Gatway</h4>
+                                    <div class="content">
+                                        <p>Please Like press like button and post your comment below</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End of col-md-3-->
+                </div>
+                <!--End of row-->
+            </div>
+            <!--End of container-->
+        </section>
+        <!--end of welcome section-->
+  </div><!--end of container fluid-->
+  </section>
+<!-- End-Why-agri page Carousels -->
+
+<!-- Fractional Ownership page Carousels -->
+<section class="ownership">
+	<div class="container-fluid">
+	  	<div class="container">
+		  	<div class="row">
+		  		<div class="col-md-12 col-sm-12 col-xs-12 text-center">
+		  			<h3>What is Fractional Ownership?</h3>
+		  		</div><!--end of col-md-12-->
+		  	</div><!--end of row-->
+		  	<div class="row">
+  				<div class="col-md-12 col-sm-12 col-xs-12 text-center">
+  					<span style="position: absolute;margin-left: 75px;margin-top: 10px;"><h4>Since mankind first began cultivating crops.</h4></span>
+		  			<img src="{% static "img/pic-3.png" %}" class="img-responsive">
+		  		</div><!--end of col-md-12-->
+		  	</div><!--end of row-->
+		  	<div class="row">
+  				<div class="col-md-12 col-sm-12 col-xs-12 text-center">
+  					<a href="#" class="btn btn-lg green">View More</a>
+  				</div><!--end of col-md-12-->
+  			</div><!--end of row-->
+		</div>
+	</div>
+</section>
+<!-- End-Fractional Ownership page Carousels -->
+
+<!--  HOw to work page Carousels -->
+<section class="how-it-works">
+	<div class="container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-3 col-xs-12 text-center">
+				<div class="h-image"><img src="static/img/h-1.png"></div><!--end of h image-->
+					<div class="h-text">
+						<h3>Browse</h3>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					</div><!--end of h text-->
+				</div><!--end of col-md-3-->
+				<div class="col-md-3 col-sm-3 col-xs-12 text-center">
+ 					<div class="h-image"><img src="static/img/h-2.png"></div><!--end of h image-->
+  					<div class="h-text">
+  						<h3>Select</h3>
+  						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+  					</div><!--end of h text-->
+  				</div><!--end of col-md-3-->
+  				<div class="col-md-3 col-sm-3 col-xs-12 text-center">
+  					<div class="h-image"><img src="static/img/h-3.png"></div><!--end of h image-->
+  					<div class="h-text">
+  						<h3>Earn</h3>
+  						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+  					</div><!--end of h text-->
+  				</div><!--end of col-md-3-->
+  				<div class="col-md-3 col-sm-3 col-xs-12 text-center">
+  					<div class="h-image"><img src="static/img/h-4.png"></div><!--end of h image-->
+  					<div class="h-text">
+  						<h3>Sell</h3>
+  						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+  					</div><!--end of h text-->
+  				</div><!--end of col-md-3-->
+  			</div><!--end of row-->
+  		</div><!--end of container-->
+  	</div><!--end of container fluid-->
+ </section>
+<!-- End-How to work page Carousels -->
+
+<!--  Investors page Carousels -->
+<section class="investors">
+	<div class="container-fluid">
+  		<div class="container">
+  			<div class="row">
+				<div class="col-md-3 col-sm-3 col-xs-12">
+  					<iframe width="100%" height="200" src="https://www.youtube.com/embed/tOwjEOt1zYU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  				</div><!--end of col-md-3-->
+				<div class="col-md-3 col-sm-3 col-xs-12">
+  					<iframe width="100%" height="200" src="https://www.youtube.com/embed/tOwjEOt1zYU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  				</div><!--end of col-md-3-->
+				<div class="col-md-3 col-sm-3 col-xs-12">
+  					<iframe width="100%" height="200" src="https://www.youtube.com/embed/tOwjEOt1zYU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  				</div><!--end of col-md-3-->
+  				<div class="col-md-3 col-sm-3 col-xs-12">
+  					<iframe width="100%" height="200" src="https://www.youtube.com/embed/tOwjEOt1zYU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  				</div><!--end of col-md-3-->
+  			</div><!--end of row-->
+  			<br>
+			<div class="row">
+  				<div class="col-md-12 col-sm-12 col-xs-12 text-center">
+  					<a href="#" class="btn btn-lg green">View More</a>
+  				</div><!--end of col-md-12-->
+  			</div><!--end of row-->
+		</div><!--end of container-->
+  	</div><!--end of container fluid-->
+</section>
+<!-- End-Investors page page Carousels -->
+
+<!-- Featured Properties page Carousels -->
+<section class="featured-properties">
+	<div class="container-fluid">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-md-12 col-sm-12 col-xs-12 text-center">
+  					<h3>FEATURED PROPERTIES</h3>
+  				</div><!--end of col-md-12-->
+  			</div><!--end of row-->
+  			<br>
+  			<div class="row">
+  				<div class="col-md-4 col-sm-4 col-xs-12">
+  					<div class="box">
+	  					<div class="f-image">
+	  						<img src="static/img/f-1.jpg" class="img-responsive">
+	  					</div><!--end of f image-->
+						<div class="f-text">
+		  					<div class="row">
+		  						<div class="col-xs-6">
+		  							<h3>9 Lacs</h3>
+		  							<p>Per Acres</p>
+		  						</div><!--end of cl-xs-6-->
+		  						<div class="col-xs-6">
+		  							<h3>Bangalore</h3>
+		  						</div><!--end of col-xs-6-->
+		  					</div><!--end of row-->
+	  					</div><!--end of f text-->
+	  					<div class="f-button">
+	  						<a href="#" class="btn btn-sm green">View Land</a>
+	  					</div><!--end of  button-->
+  					</div><!--end of box-->
+  				</div><!--end of col-md-4-->
+  				<div class="col-md-4 col-sm-4 col-xs-12">
+  					<div class="box">
+	  					<div class="f-image">
+	  						<img src="static/img/f-1.jpg" class="img-responsive">
+	  					</div><!--end of f image-->
+						<div class="f-text">
+		  					<div class="row">
+		  						<div class="col-xs-6">
+		  							<h3>9 Lacs</h3>
+		  							<p>Per Acres</p>
+		  						</div><!--end of cl-xs-6-->
+		  						<div class="col-xs-6">
+		  							<h3>Bangalore</h3>
+		  						</div><!--end of col-xs-6-->
+		  					</div><!--end of row-->
+	  					</div><!--end of f text-->
+	  					<div class="f-button">
+	  						<a href="#" class="btn btn-sm green">View Land</a>
+	  					</div><!--end of  button-->
+  					</div><!--end of box-->
+  				</div><!--end of col-md-4-->
+  				<div class="col-md-4 col-sm-4 col-xs-12">
+  					<div class="box">
+	  					<div class="f-image">
+	  						<img src="static/img/f-1.jpg" class="img-responsive">
+	  					</div><!--end of f image-->
+						<div class="f-text">
+		  					<div class="row">
+		  						<div class="col-xs-6">
+		  							<h3>9 Lacs</h3>
+		  							<p>Per Acres</p>
+		  						</div><!--end of cl-xs-6-->
+		  						<div class="col-xs-6">
+		  							<h3>Bangalore</h3>
+		  						</div><!--end of <col-xs-6--></col-xs-6-->
+		  					</div><!--end of row-->
+	  					</div><!--end of f text-->
+	  					<div class="f-button">
+	  						<a href="#" class="btn btn-sm green">View Land</a>
+	  					</div><!--end of  button-->
+  					</div><!--end of box-->
+  				</div><!--end of col-md-4-->
+			</div><!--end of row-->
+  		</div><!--end of container-->
+  	</div><!--end of container fluid-->
+</section>
+<!-- End Featured Properties page page Carousels -->
+
+<!-- OUR FEE STRUCTURE page Carousels -->
+<section class="ownership">
+  	<div class="container-fluid">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-md-12 col-sm-12 col-xs-12 text-center">
+  					<h2>OUR FEE STRUCTURE</h2>
+  			</div><!--end of col-md-12-->
+  		</div><!--end of row-->
+		<div class="row">
+  			<div class="col-md-6 col-sm-6 col-xs-12 text-center">
+  				<div class="h-text">
+  					<h3>ASSET MANAGEMENT FEE</h3>
+  					<h1 style="color: blue; font-size: 40px !important;">1.5% - 5%</h1>
+  					<p>OF INVESTED CAPITAL YEARLY</p>
+  				</div><!--end of h text-->
+  			</div><!--end of col-md-3-->
+			<div class="col-md-6 col-sm-6 col-xs-12 text-center">
+	  			<div class="h-text">
+		  			<h3>PREFORMANCE FEE</h3>
+		  			<h1 style="color: blue; font-size: 40px !important;">10% - 30%</h1>
+	  				<p>ON PROFITS</p>
+	  			</div><!--end of h text-->
+	  		</div><!--end of col-md-3-->
+			<div class="col-md-12 col-sm-12 col-xs-12 text-center">
+	  			<p>* These are subjected to contractual agreements and from project to project</p>
+	  		</div><!--end of col-md-12-->
+		</div><!--end of container-->
+  	</div><!--end of container fluid-->
+</section>
+<!-- End Featured Properties page page Carousels -->
+
+<!-- OUR FEE STRUCTURE page Carousels -->
+<section class="count">
+  	<div class="container-fluid">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-md-12 col-sm-12 col-xs-12 text-center">
+  					<h3 class="heading-3">OUR INVESTMENT EXPERIENCE</h3>
+  				</div><!--end of col-md-12-->
+  			</div><!--end of row-->
+  			<br><br>
+			<div class="row">
+  				<div class="col-md-3 col-sm-3 col-xs-12 text-center">
+  					<h1 class="heading-1">15 YRS</h1>
+  					<p>Lorem Ipsum is simply</p>
+  				</div><!--end of col-md-3-->
+  				<div class="col-md-3 col-sm-3 col-xs-12 text-center">
+					  <h1 class="heading-1">$1 BILLION</h1>
+					  <p>Lorem Ipsum is simply</p>
+				</div><!--end of col-md-3-->
+				<div class="col-md-3 col-sm-3 col-xs-12 text-center">
+  					<h1 class="heading-1">30 MILLION</h1>
+  					<p>Lorem Ipsum is simply</p>
+  				</div><!--end of col-md-3-->
+				<div class="col-md-3 col-sm-3 col-xs-12 text-center">
+  					<h1 class="heading-1">IIT / IIM</h1>
+  					<p>Lorem Ipsum is simply</p>
+  				</div><!--end of col-md-3-->
+			</div><!--end of row-->
+  		</div><!--end of container-->
+  	</div><!--end of container fluid-->
+</section>
+<!-- End-OUR FEE STRUCTURE page page Carousels -->
+
+<!-- Team page Carousels -->
+<section id="team" class="pb-5">
+      <div class="container">
+          <h2 class="section-title ">OUR TEAM</h2>
+          <div class="row">
+              <!-- Team member -->
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                  <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                      <div class="mainflip">
+                          <div class="frontside">
+                              <div class="card">
+                                  <div class="card-body text-center">
+                                      <p><img class=" img-fluid" src="static/img/t1.png" alt="card image"></p>
+                                      <h4 class="card-title">Mr. Manideep</h4>
+                                      <p class="card-text">This is basic card with image on top, title, description and button.</p>
+                                      <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="backside">
+                              <div class="card">
+                                  <div class="card-body text-center mt-4">
+                                      <h4 class="card-title">Mr. Manideep</h4>
+                                      <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                      <ul class="list-inline">
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                  <i class="fa fa-facebook"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                  <i class="fa fa-twitter"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                  <i class="fa fa-skype"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                  <i class="fa fa-google"></i>
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- ./Team member -->
+              <!-- Team member -->
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                  <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                      <div class="mainflip">
+                          <div class="frontside">
+                              <div class="card">
+                                  <div class="card-body text-center">
+                                      <p><img class=" img-fluid" src="static/img/t1.png" alt="card image"></p>
+                                      <h4 class="card-title">Sunlimetech</h4>
+                                      <p class="card-text">This is basic card with image on top, title, description and button.</p>
+                                      <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="backside">
+                              <div class="card">
+                                  <div class="card-body text-center mt-4">
+                                      <h4 class="card-title">Sunlimetech</h4>
+                                      <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                      <ul class="list-inline">
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                  <i class="fa fa-facebook"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                  <i class="fa fa-twitter"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                  <i class="fa fa-skype"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                  <i class="fa fa-google"></i>
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- ./Team member -->
+              <!-- Team member -->
+              <div class="col-xs-12 col-sm-6 col-md-4">
+                  <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                      <div class="mainflip">
+                          <div class="frontside">
+                              <div class="card">
+                                  <div class="card-body text-center">
+                                      <p><img class=" img-fluid" src="static/img/t1.png" alt="card image"></p>
+                                      <h4 class="card-title">Mr. Naveen</h4>
+                                      <p class="card-text">This is basic card with image on top, title, description and button.</p>
+                                      <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="backside">
+                              <div class="card">
+                                  <div class="card-body text-center mt-4">
+                                      <h4 class="card-title">Mr. Naveen</h4>
+                                      <p class="card-text">This is bNaveenasic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                      <ul class="list-inline">
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                  <i class="fa fa-facebook"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                  <i class="fa fa-twitter"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                  <i class="fa fa-skype"></i>
+                                              </a>
+                                          </li>
+                                          <li class="list-inline-item">
+                                              <a class="social-icon text-xs-center" target="_blank" href="#">
+                                                  <i class="fa fa-google"></i>
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- ./Team member -->
+          </div>
+      </div>
+</section>
+<!-- End Team page page Carousels -->
+
+<!-- Companies page Carousels -->
+<section class="company">
+  	<div class="container-fluid">
+	  	<div class="container">
+		  	<div class="row">
+			  	<div class="col-md-12 col-sm-12 col-xs-12">
+			  		<img src="static/img/compant-icon.jpg" class="img-responsive">
+			  	</div><!--end of col-md-12-->
+		  	</div><!--end of row-->
+	  	</div><!--end of container-->
+  	</div><!--end of container fluid-->
+</section>
+<!-- End Companies page page Carousels -->
+
+{% endblock %}

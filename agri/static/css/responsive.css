@@ -1,0 +1,148 @@
+@media all and (max-width: 960px) and (min-width: 360px) {
+                .default {
+                    width: 100%;
+                    padding-top:30px;
+                    padding-bottom:30px;
+                    background-color:#d1ed94;
+                    color:#333333;height: 200px;
+                    background-image:url(../img/banner-background.png); 
+                    background-size: cover;
+                }
+                .default h1{padding-top: 15px !important; font-size: 20px; font-weight: 600; margin-top: 25% !important; margin-bottom: 0px;}
+                .default h3{padding-top: 05px !important; font-size: 12px; margin-top: 1px !important; margin-bottom: 10px;}
+            
+                .modal-content {
+                    background-color: #bdc3c7;
+                    border: 1px solid #bdc3c7;
+                    border-radius: 10px;
+                    outline: 0;margin-top: 25%;
+                    margin-left: 25px
+                }
+                #sg-carousel .carousel-inner .item {
+                    height: 180PX;
+                }
+                .carousel-fade .carousel-control {
+                    z-index: 2;
+                    font-size: 20px;
+                }
+                #sg-carousel .carousel-control.left {
+                    top: 50px;
+                }
+                #sg-carousel .carousel-control.right {
+                    top: 50px;
+                }
+                #sg-carousel:hover .carousel-control.left {
+                    left: 10px;
+                    transition: all .2s ease 0;
+                }
+                #sg-carousel:hover .carousel-control.right {
+                    right: 10px;
+                    transition: all .2s ease 0;
+                }
+                .carousel-indicators li {
+                    background-color: #b3b5b9;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    display: inline-block;
+                    height: 5px;
+                    margin-bottom: 0px;
+                    text-indent: -999px;
+                    width: 5px;
+                    border: 0;
+                }
+                .carousel-indicators .active {
+                    background-color: #041132;
+                    height: 5px;
+                    margin-bottom: 0px;
+                    width: 5px;
+                    border: 0;
+                }
+                .carousel-caption{top:5px !important;padding-right: 20px;padding-left: 20px}
+                .carousel-caption p{padding-bottom: 0px!important; font-size: 12px; line-height: 2; color: #232323;}
+                .carousel-caption h3{padding-top: 15px !important; font-size: 16px; font-weight: 600; margin: 0px !important; margin-bottom: 0px !important;}
+                .carousel-caption h1{padding-top: 15px !important; font-size: 18px; font-weight: 600; margin: 0px !important; margin-bottom: 0px !important;}
+                .carousel-caption h2{padding-top: 15px !important; font-size: 14px; font-weight: 600; margin: 0px !important; margin-bottom: 0px !important; color: #fff}
+                .carousel-caption a{ font-size: 8px;}
+                .why-agri {
+                    padding-top:10px;
+                    padding-bottom:10px;
+                    background:linear-gradient(rgba(39, 95, 126, 0.7),rgba(39, 95, 126, 0.7)), url(../img/Untitled-2.jpg)no-repeat top center fixed; background-size: cover;
+                }
+
+                #welcome {
+                    min-height: 350px;
+                    background: transparent;
+                    padding: 30px 0;
+                }
+                .wel_header {
+                    text-align: center;
+                    color: #FFF;
+                    padding-top: 0;
+                }
+                .wel_header h2 {
+                    font-size: 18px;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    padding-bottom: 25px;
+                    color: #fff;
+                }
+                .wel_header p {
+                    font-size: 12px;
+                }
+                #welcome .single_item {
+                    padding-top: 5px;
+                    text-align: center;
+                }
+                #welcome .welcome_icon {
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 50%;
+                    text-align: center;
+                    margin: 0 auto;
+                    border: 1px solid #C4C4C4;
+                    transition: .7s;
+                }
+                #welcome .welcome_icon i {
+                    margin-top: 25%;
+                    font-size: 50px;
+                    transition: .7s;
+                }
+                #welcome .item_list h4 {
+                    padding: 20px;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    font-size: 14px;
+                    color: #fff;
+                    transition: 0.7s;
+                }
+                #welcome .item_list p {
+                    font-size: 10px;
+                    color: #fff;
+                }
+
+                .our_tech{top:5px !important;padding-right: 20px;padding-left: 20px}
+                .our_tech p{ font-size: 12px; text-align: center;}
+                .our_tech h3{font-size: 20px; font-weight: 600; margin: 0px; margin-bottom: 10px;}
+                .our_tech img{padding-top: 05px !important;padding-bottom: 30px;padding-left: 05px !important;padding-right:05px !important;width: 100% !important;height: auto;}
+                
+                #tech .tech_news {
+                    padding-bottom: 27px;
+                    padding-top: 10px;
+                }
+
+                .works {
+                    width: auto;
+                    background-color:#d1ed94;
+                    color:#333333;height: 350px;
+                    background-image:url(../img/banner-background.png); 
+                    background-size: cover;
+                }
+                .works h1{font-size: 20px; font-weight: 600; margin: 0px; margin-bottom: 20px;}
+                .works iframe{width: 250px;height: 150px;}
+
+                .agrigreen{top:5px !important;padding-right: 20px;padding-left: 20px}
+                .agrigreen p{ font-size: 12px; text-align: center;}
+                .agrigreen h3{font-size: 20px; font-weight: 600; margin: 0px; margin-bottom: 10px;}
+                .agrigreen img{padding-top: 05px !important;padding-bottom: 30px;padding-left: 05px !important;padding-right:05px !important;width: 100% !important;height: auto;}
+                
+            }

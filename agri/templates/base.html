@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    {% load staticfiles %}
+    <link rel="icon" type="image/ico" href="{% static "img/favicon.png" %}" />
+
+    <link href="{% static "vendor/bootstrap/css/bootstrap.min.css" %}" rel="stylesheet ">
+    <link href="{% static "vendor/bootstrap/css/bootstrap-dropdownhover.min.css"% } " rel="stylesheet ">
+    <link href="{% static "css/animate.min.css" %}" rel="stylesheet ">
+    <link href="{% static "font-awesome-4.7.0/css/font-awesome.min.css" %}" rel="stylesheet ">
+    <link href="{% static "css/owl.carousel.min.css" %}" rel="stylesheet ">
+    <link href="{% static "css/owl.theme.default.min.css" %}" rel="stylesheet ">
+    <link href="{% static "css/style.css" %}" rel="stylesheet ">
+    <link href="{% static "css/responsive.css" %}" rel="stylesheet ">
+
+  </head>
+  <body>
+    <div class="globalBox" data-spy="affix" data-offset-top="50" id="nav">
+      <header>
+        <div class="container">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/"><img src="{% static "img/logo.png" %}" class="d-inline-block alighn-top" /></a>
+              </div>
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" data-hover="dropdown" data-animations="slideInUp fadeInLeft bounceIn fadeInRight">
+                    <ul class="nav navbar-nav ml-auto">
+                      <li class="dropdown">
+                          <a href="{% url 'about_us' %}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                              <li><a href="{% url 'vision_&_mision' %}">Vision & Mision</a></li>
+                              <li class="dropdown">
+                              <a href="#" class="test" >Service <span class="caret"></span></a>
+                              <ul class="dropdown-menu dropdownhover-left">
+                                <li><a href="{% url 'our_approach' %}">Our Approach</a></li>
+                                <li><a href="{% url 'our_methods' %}">Our Methods</a></li>
+                                <li><a href="{% url 'impact' %}">Impact</a></li>
+                                <li><a href="{% url 'recognition' %}">Recognition</a></li>
+                              </ul>
+                            </li>      
+                          </ul>
+                        </li>
+                        <li><a href="{% url 'how_it_works' %}"'>How It Works</a></li>
+                        <li><a href="properties.html">Agri Properties</a></li>
+                        <li><a href="{% url 'technology' %}">Technology</a></li>
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Product <span class="caret"></span></a>
+                          <ul class="dropdown-menu dropdownhover-bottom" role="menu">
+                            <li><a href="agri_diff.html">Agri Assets Differance</a></li>
+                            <li><a href="agri_green.html">Agri Assets</a></li>
+                            <li><a href="food_service.html">Food Service</a></li>
+                          </ul>
+                        </li>
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resource Center <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="formers.html">Farmers</a></li>
+                            <li><a href="retailer.html">Retailers</a></li>
+                            <li><a href="faqs.html">FAQs</a></li>
+                            <li><a href="aritical.html">Ariticals</a></li>
+                            <li><a href="webinor.html">Webinors</a></li>
+                            <li><a href="#">Investor</a></li>
+                            <li><a href="#">Partner With us</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="#" role="button" data-toggle="modal" data-target="#login-modal">Login </a></li>
+                      </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </header>
+        </div>
+      {% block content %}
+
+      {% endblock %}
+
+  <section class="footer">
+  <div class="container-fluid">
+  <div class="container">
+  <div class="row">
+  <div class="col-md-4 col-sm-4 col-xs-12">
+  <img src="{% static "img/logo.png" %}" class="">
+  <ul class="footer-address">
+  <li><span><i class="fa fa-map-marker"></i></span>Address: Flat no 103,<br> survey no 9-10-11, second cross,<br> vallabha Nagar, uttarahalli,<br> Bangalore -61</li>
+  <li><span><i class="fa fa-phone"></i></span>+91-9966999193</li>
+  <li><span><i class="fa fa-envelope-o"></i></span>info@agriasset.com</li>
+  </ul>
+  </div><!--end of col-md-12-->
+
+
+  <div class="col-md-4 col-sm-4 col-xs-12">
+  <h3>Quick Links</h3>
+  <ul class="footer-links"><li><a href="/">Home</a></li>
+  <li><a href="{% url 'about_us' %}">About Us</a></li>
+  <li><a href="contact_us.html">Contact us</a></li>
+  <li><a href="contact_us.html">FAQs</a></li>
+  
+  </ul>
+  </div><!--end of col-md-12-->
+
+  <div class="col-md-4 col-sm-4 col-xs-12">
+  <h3>Legal </h3>
+  <ul class="footer-links"><li><a href="index.html">Terms and Conditions</a></li>
+  <li><a href="about_us.html">Privacy Policy</a></li>
+  </ul>
+
+  <ul class="social-links">
+  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+  </ul>
+
+  </div><!--end of col-md-4-->
+
+
+  </div><!--end of row-->
+  </div><!--end of container-->
+  </div><!--end of container fluid-->
+  </section>
+
+
+  <!--======================================-->
+
+  <section class="copyright">
+  <div class="container-fluid">
+  <div class="container">
+  <div class="row">
+  <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+  © Copyright 2018. All Rights Reserved.
+  </div><!--end of col-md-12-->
+  </div><!--end of row-->
+  </div><!--end of container-->
+  </div><!--end of container fluid-->
+  </section>
+
+
+    <!--Scroll to top
+    <a href="# " id="back-to-top " title="Back to top ">&uarr;</a>-->
+    <!--End of Scroll to top-->
+    <!-- Bootstrap core JavaScript -->
+    <script src="{% static "vendor/jquery/jquery.min.js" %}"></script>
+    <script src="{% static "vendor/bootstrap/js/bootstrap.min.js" %}"></script>
+    <script src="{% static "vendor/bootstrap/js/bootstrap-dropdownhover.min.js" %}">
+    </script>
+    <script src="{% static "js/owl.carousel.min.js" %}"></script>
+    <script src="{% static "js/global.js" %}"></script>
+    <script src="{% static "js/form-validator.js" %}"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+              event.preventDefault();
+              $('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+            });
+          });
+    </script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  </body>
+</html>

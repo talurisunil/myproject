@@ -1,0 +1,162 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+.proprety {
+                    width: auto;
+                    padding-top:30px;
+                    padding-bottom:10px;
+                    background-color:#d1ed94;
+                    color:#333333;height: 350px;
+                    background-size: cover;
+}
+.proprety h1{margin-top: 10% !important; font-size: 40px; font-weight: 600; margin-bottom: 10px;}
+
+#preproty{
+    background-color: #f8f8f8;
+}
+
+#preproty h3{padding-top: 10px; font-size: 25px; margin: 0px; margin-bottom: 25px;}
+#preproty h4{ font-size: 18px; margin: 0px; margin-bottom: 5px;color: #888888}
+#preproty h5{ font-size: 14px; margin: 0px; margin-bottom: 10px;color: #888888}
+#links li{display: inline-block;text-align: center; padding-left: 40px;}
+#links img{width: 30px;height: 30px}
+#links h4{ font-size: 12px; margin: 15px; margin-bottom: 5px;color: #888888}
+
+.news{width: 100%; height: auto; min-height: 250px; float: left; position: relative; padding: 5px; border:1px solid #ddd;margin-top: 15px; margin-bottom: 20px; background-color: #fff}
+.news p{margin-top: 30px;}
+.news img{margin:50% auto;}
+.newsLink{color: #3452ff; font-size: 16px; }
+.news ul {margin-bottom: 10px;}
+.news li{display: inline-block; padding-right: 15px !important;}
+.news span{padding:10px;}
+.quality-policy h3{ padding-left: : 10px;font-size: 25px;}
+.news img{margin-top: 0px;float: left;width: 100%;height: auto;padding: 0px;margin-bottom: 3px}
+.inner_box{margin-top: 0px;float: left;width: 100%;height: auto;padding: 0px;}
+.inner_box img{margin-left: 25px;margin-top: 10px; width: 40px;height: 40px}
+.inner_box-1{margin-top: 0px;float: left;width: 100%;height: auto;padding: 0px;}
+.inner_box_1 img{margin-left: 60px;margin-top: 10px; width: 40px;height: 40px}
+
+.detail_blog{padding: 30px 0px;margin: 0px; background-color: #fff}
+.news_1_1{width: 100%; height: auto; min-height: 220px; float: left; position: relative; padding: 10px; border:1px solid #ddd; margin-bottom: 15px;background-color: #fff}
+.news_1_1 p{margin-top: 30px;}
+.news_1_1 img{margin:50% auto;}
+.newsLink{color: #3452ff; font-size: 16px; }
+.news_1_1 ul {margin-left: -40px;margin-bottom: 10px;}
+.news_1_1 li{display: inline-block; padding-right: 20px !important;}
+.news_1_1 span{padding:10px;}
+.news_1_1 img{margin-top: 10px; margin-left: 60px;float: left;width: 50%;height: auto;padding: 0px;margin-bottom: 3px}
+
+.news_1_1_1{width: 100%; height: auto; min-height: 600px; float: left; position: relative; padding: 10px; border:1px solid #ddd; margin-bottom: 15px;}
+.news_1_1_1 p{padding-top: 20px}
+
+.progress {
+  width: 350px;
+  height: 20px;
+  background-color: #4a77c3;
+  border-radius: 16px;
+  padding: 4px;
+}
+
+.bar {
+  background-color: #f5f5f5;
+  width: 80%;
+  height: 100%;
+  border-radius: 16px;
+  animation-name: increase;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+#ribbon-container {
+        position: absolute;
+        top: 0px;
+        right: -15px;
+        overflow: visible; /* so we can see the pseudo-elements we're going to add to the anchor */
+        font-size: 18px; /* font-size and line-height must be equal so we can account for the height of the banner */
+        line-height: 18px;
+      }
+      
+      #ribbon-container:before {
+        content:"";
+        height: 0;
+        width: 0;
+        display: block;
+        position: absolute;
+        top: 3px;
+        left: 0;
+        border-top: 29px solid rgba(0,0,0,.3); /* These 4 border properties create the first part of our drop-shadow */
+        border-bottom: 29px solid rgba(0,0,0,.3); 
+        border-right: 29px solid rgba(0,0,0,.3);
+        border-left: 29px solid transparent;
+      }
+      
+      #ribbon-container:after { /* This adds the second part of our dropshadow */
+        content:"";
+        height: 3px;
+        background: rgba(0,0,0,.3);
+        display: block;
+        position: absolute;
+        bottom: -3px;
+        left: 58px;
+        right:3px;
+      }
+      
+      #ribbon-container a {
+        display:block;
+        padding:20px;
+        position:relative; /* allows us to position our pseudo-elements properly */
+        background:#0089d0;
+        overflow:visible;
+        height:58px;
+        margin-left:29px;
+        color:#fff;
+        text-decoration:none;
+      }
+      
+      #ribbon-container a:after { /* this creates the "folded" part of our ribbon */
+        content:""; 
+        height: 0;
+        width: 0;
+        display:block;
+        position:absolute;
+        bottom:-15px;
+        right:0;
+        border-top: 15px solid #004a70; 
+        border-right: 15px solid transparent;
+      }
+      
+      #ribbon-container a:before { /* this creates the "forked" part of our ribbon */
+        content:"";
+        height: 0;
+        width: 0;
+        display:block;
+        position:absolute;
+        top:0;
+        left:-29px;
+        border-top: 29px solid #0089d0; 
+        border-bottom: 29px solid #0089d0; 
+        border-right: 29px solid transparent;
+        border-left: 29px solid transparent;
+      }
+      
+      #ribbon-container a:hover {
+        background:#009ff1;
+      }
+      
+      #ribbon-container a:hover:before { /* this makes sure that the "forked" part of the ribbon changes color with the anchor on :hover */
+        border-top: 29px solid #009ff1; 
+        border-bottom: 29px solid #009ff1;
+      }
+
+      .btn-block_1 {
+    display: block;
+    width: 170px;
+}
+.nav-tabs > li.active > a:hover {
+
+    color: #555;
+    cursor: default;
+    background-color: #fbf6f6;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+
+}

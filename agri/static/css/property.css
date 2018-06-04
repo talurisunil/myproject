@@ -1,0 +1,158 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+.proprety {
+                    width: auto;
+                    padding-top:30px;
+                    padding-bottom:10px;
+                    background-color:#fbfbfb;
+                    color:#333333;height: auto;
+                    background-size: cover;
+}
+.proprety h1{margin-top: 8% !important; font-size: 40px; font-weight: 600; margin-bottom: 10px;}
+.proprety li{display: inline-block;}
+#submenu{padding-right: 30px}
+.nav-tabs > li > a {
+
+    margin-right: 0px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    border-radius: 0px;
+    width: 175px;
+    background-color: #dbefeb;
+}
+.nav-tabs > li > a > span {margin-left: 45px}
+.nav-tabs > li.active {
+
+    color: #555;
+    cursor: default;
+    background-color: #92d400;
+    border-bottom: : 1px solid #ddd;
+    border-radius: 0px 0px 0px 0px; 
+}
+
+.nav-tabs > li.active > a:hover {
+
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+}
+
+.dropdown-menu {
+
+    min-width: 175px;
+
+}
+.dropdown-menu li {
+
+    padding: 5px 0px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    width: 175px;
+}
+.dropdown-menu > li > a:hover {
+
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+
+}
+#pro_drop{border-right:2px solid #ddd;}
+
+#preproty{background-color: #eee;}
+#preproty h3{padding-top: 10px; font-size: 25px; margin: 0px; margin-bottom: 25px;}
+#preproty h4{ font-size: 18px; margin: 0px; margin-bottom: 5px;color: #888888}
+#preproty h5{ font-size: 14px; margin: 0px; margin-bottom: 10px;color: #888888}
+#links li{display: inline-block;text-align: center; padding-left: 40px;}
+#links img{width: 30px;height: 30px}
+#links h4{ font-size: 12px; margin: 15px; margin-bottom: 5px;color: #888888}
+
+.pro_card{width: 100%; height: auto; min-height: 250px; float: left; position: relative; border:1px solid #fff;margin-top: 15px; margin-bottom: 20px; background-color: #fff}
+.pro_card h3{padding-left: 5px; padding-top: 10px; font-size: 24px; margin: 0px; margin-bottom: 25px;}
+.pro_card li{margin-left: 5px;display: inline-block; padding-right: 8px !important;margin-bottom: -15px !important}
+.pro_card i{font-size: 25px;padding-right: 5px;}
+.pro_card hr{margin: 5px!important}
+.pro_card h4{padding-left: 5px; font-size: 18px; margin: 0px; margin-bottom: 10px;}
+.pro_card h5{padding-left: 5px; font-size: 16px; margin: 0px; margin-bottom: 10px;}
+.pro_card img{margin-top: 0px;float: left;width: 100%;height: auto;padding: 0px;margin-bottom: 3px}
+.pro_card_content{margin-top: 0px;float: left;width: 100%;height: auto;padding: 0px;}
+.pro_card_content img{margin-left: 25px;margin-top: 10px; width: 40px;height: 40px}
+
+.progress {margin-left: 12px;margin-right: 12px; width: 330px;height: 20px;background-color: #4a77c3;border-radius: 16px;padding: 4px;}
+.bar {background-color: #f5f5f5;width: 80%;height: 100%;border-radius: 16px;animation-name: increase;animation-duration: 3s;animation-iteration-count: infinite;animation-timing-function: ease-in-out;}
+
+.ribbon {
+  position: absolute;
+  right: -5px; top: -5px;
+  z-index: 1;
+  overflow: hidden;
+  width: 75px; height: 75px;
+  text-align: right;
+}
+.ribbon span {
+  font-size: 10px;
+  font-weight: bold;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 20px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  width: 100px;
+  display: block;
+  background: #79A70A;
+  background: linear-gradient(#9BC90D 0%, #79A70A 100%);
+  box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 19px; right: -21px;
+}
+.ribbon span::before {
+  content: "";
+  position: absolute; left: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid #79A70A;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #79A70A;
+}
+.ribbon span::after {
+  content: "";
+  position: absolute; right: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid transparent;
+  border-right: 3px solid #79A70A;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #79A70A;
+}
+
+#equity{
+  position: absolute;
+  display: block;
+  width: 20%;
+  top:150px;
+  left:5px;
+  border-radius: 50px;
+  
+}
+#detail{
+  position: absolute;
+  display: block;
+  top:315px;
+  left:5px;
+  color: #f1f6ff;
+  font-size: 30px;
+}
+#detail_sub{
+  position: absolute;
+  display: block;
+  top:340px;
+  left:5px;
+  color: #f1f6ff;
+  font-size: 16px;
+}
+
+@media all and (max-width: 960px) and (min-width: 300px) {
+    .progress {margin-left: 12px;margin-right: 12px; width: 90%;height: 20px;background-color: #4a77c3;border-radius: 16px;padding: 4px;}
+    .bar {background-color: #f5f5f5;width: 80%;height: 100%;border-radius: 16px;animation-name: increase;animation-duration: 3s;animation-iteration-count: infinite;animation-timing-function: ease-in-out;}
+}
